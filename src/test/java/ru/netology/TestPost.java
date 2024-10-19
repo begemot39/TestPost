@@ -31,7 +31,7 @@ public class TestPost {
                 .then()
                 .log().all()
                 .statusCode(200)
-                .body("data.name", equalTo("Имя7"));
+                .body("data.name", equalTo("Имя"));
 
     }
 }
